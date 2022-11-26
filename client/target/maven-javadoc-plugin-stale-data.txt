@@ -1,0 +1,62 @@
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/bin/javadoc
+@options
+@packages
+@argfile
+-classpath
+'/Users/yiyuzhang/.m2/repository/io/swagger/core/v3/swagger-annotations/2.0.0/swagger-annotations-2.0.0.jar:/Users/yiyuzhang/.m2/repository/com/squareup/okhttp/okhttp/2.7.5/okhttp-2.7.5.jar:/Users/yiyuzhang/.m2/repository/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar:/Users/yiyuzhang/.m2/repository/com/squareup/okhttp/logging-interceptor/2.7.5/logging-interceptor-2.7.5.jar:/Users/yiyuzhang/.m2/repository/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar:/Users/yiyuzhang/.m2/repository/io/gsonfire/gson-fire/1.8.3/gson-fire-1.8.3.jar:/Users/yiyuzhang/.m2/repository/org/threeten/threetenbp/1.3.5/threetenbp-1.3.5.jar:/Users/yiyuzhang/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/yiyuzhang/cs6650/java-client-generated (2)/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'swagger-java-client 1.0.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/yiyuzhang/cs6650/java-client-generated (2)/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'swagger-java-client 1.0.0 API'
+io.swagger.client
+io.swagger.client.auth
+io.swagger.client.model
+io.swagger.client.api
+'/Users/yiyuzhang/cs6650/java-client-generated (2)/src/main/java/TestClient.java'
+/Users/yiyuzhang/.m2/repository/io/swagger/core/v3/swagger-annotations/2.0.0/swagger-annotations-2.0.0.jar = 1664401351665
+/Users/yiyuzhang/.m2/repository/com/squareup/okhttp/okhttp/2.7.5/okhttp-2.7.5.jar = 1664401351584
+/Users/yiyuzhang/.m2/repository/com/squareup/okio/okio/1.6.0/okio-1.6.0.jar = 1664401351714
+/Users/yiyuzhang/.m2/repository/com/squareup/okhttp/logging-interceptor/2.7.5/logging-interceptor-2.7.5.jar = 1664401351626
+/Users/yiyuzhang/.m2/repository/com/google/code/gson/gson/2.8.1/gson-2.8.1.jar = 1664401351792
+/Users/yiyuzhang/.m2/repository/io/gsonfire/gson-fire/1.8.3/gson-fire-1.8.3.jar = 1664401351888
+/Users/yiyuzhang/.m2/repository/org/threeten/threetenbp/1.3.5/threetenbp-1.3.5.jar = 1664401352199
+/Users/yiyuzhang/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar = 1664404690384
+/Users/yiyuzhang/cs6650/java-client-generated (2)/src/main/java/TestClient.java = 1664407286424
+/Users/yiyuzhang/cs6650/java-client-generated (2)/src/main/java = 1664407286424
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/constant-values.html = 1664407816059
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/overview-tree.html = 1664407816258
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/index.html = 1664407816306
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/TestClient.html = 1664407815038
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/overview-frame.html = 1664407815991
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/package-use.html = 1664407816238
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/allclasses-noframe.html = 1664407816304
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/serialized-form.html = 1664407816067
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/index-all.html = 1664407816293
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/deprecated-list.html = 1664407816300
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/script.js = 1664407816315
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/package-frame.html = 1664407815993
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/stylesheet.css = 1664407816314
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/overview-summary.html = 1664407816308
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/help-doc.html = 1664407816311
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/package-summary.html = 1664407816003
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/allclasses-frame.html = 1664407816303
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/package-list = 1664407815988
+/Users/yiyuzhang/cs6650/java-client-generated (2)/target/apidocs/package-tree.html = 1664407816008

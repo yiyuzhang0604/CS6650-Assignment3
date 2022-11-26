@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="consumer:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/consumer_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="consumer/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="consumer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="amqp-client-5.7.1" />
+          <element id="library" level="project" name="commons-pool2-2.11" />
+          <element id="library" level="project" name="slf4j-api-1.7.26" />
+          <element id="library" level="project" name="slf4j-simple-1.7.26" />
+          <element id="library" level="project" name="gson-2.9.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

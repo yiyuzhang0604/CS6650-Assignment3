@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="230.71536744855274" y="-50.665475190754364">Analyzer</node>
+    <node x="-44.352004051808095" y="19.51272368293762">WriteToCSV</node>
+    <node x="495.2950715796362" y="243.37569266923418">PhaseRunner</node>
+    <node x="23.531084524567945" y="-231.88315697834344">ConcurrentCount</node>
+    <node x="159.0142421618885" y="184.10645474415207">Phase</node>
+    <node x="402.73037954399445" y="-317.04350740528207">Producer</node>
+    <node x="-148.72614480251985" y="214.35493489707665">ProducerConsumer</node>
+    <node x="614.810689275216" y="-36.021815520720224">RequestResult</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ProducerConsumer" target="ConcurrentCount" relationship="CREATE">
+      <point x="-10.62585924928824" y="-38.0" />
+      <point x="-61.852004051808095" y="-171.88315697834344" />
+      <point x="-93.0" y="0.0" />
+    </edge>
+    <edge source="Phase" target="RequestResult" relationship="TO_MANY">
+      <point x="136.99975783811152" y="-4.5474415207991115E-4" />
+      <point x="465.0" y="321.106" />
+      <point x="465.0" y="136.5" />
+      <point x="-115.99968927521593" y="68.52181552072022" />
+    </edge>
+    <edge source="PhaseRunner" target="ConcurrentCount" relationship="TO_ONE">
+      <point x="-40.795071579636215" y="-125.99969266923418" />
+      <point x="591.5" y="152.0" />
+      <point x="181.148" y="152.0" />
+      <point x="64.61691547543205" y="60.00015697834344" />
+    </edge>
+    <edge source="PhaseRunner" target="WriteToCSV" relationship="TO_ONE">
+      <point x="-137.0000715796362" y="106.23030733076581" />
+      <point x="141.514" y="475.606" />
+      <point x="141.514" y="135.0" />
+      <point x="59.648" y="135.0" />
+      <point x="4.051808097926823E-6" y="49.00027631706239" />
+    </edge>
+    <edge source="Phase" target="ConcurrentCount" relationship="TO_ONE">
+      <point x="-2.421618884795862E-4" y="-137.00045474415208" />
+      <point x="296.014" y="152.0" />
+      <point x="181.148" y="152.0" />
+      <point x="64.61691547543205" y="60.00015697834344" />
+    </edge>
+    <edge source="ProducerConsumer" target="Producer" relationship="CREATE">
+      <point x="-55.62585924928824" y="-38.0" />
+      <point x="-106.8520040518081" y="-279.38315697834344" />
+      <point x="-100.0" y="-55.339649573061365" />
+    </edge>
+    <edge source="ProducerConsumer" target="WriteToCSV" relationship="CREATE">
+      <point x="14.37414075071176" y="-38.0" />
+      <point x="-96.5" y="49.0" />
+    </edge>
+    <edge source="PhaseRunner" target="RequestResult" relationship="CREATE">
+      <point x="98.51561769557975" y="-126.0" />
+      <point x="0.0" y="104.0" />
+    </edge>
+    <edge source="ProducerConsumer" target="Phase" relationship="CREATE">
+      <point x="97.5" y="0.0" />
+      <point x="-137.0" y="-68.75151984707543" />
+    </edge>
+    <edge source="ProducerConsumer" target="Analyzer" relationship="CREATE">
+      <point x="-40.62585924928824" y="-38.0" />
+      <point x="-91.8520040518081" y="-264.38315697834344" />
+      <point x="364.71536744855274" y="-264.38315697834344" />
+      <point x="0.0" y="-82.0" />
+    </edge>
+    <edge source="Phase" target="WriteToCSV" relationship="TO_ONE">
+      <point x="-99.8662421618885" y="-137.00045474415208" />
+      <point x="196.148" y="135.0" />
+      <point x="59.648" y="135.0" />
+      <point x="4.051808097926823E-6" y="49.00027631706239" />
+    </edge>
+    <edge source="Analyzer" target="RequestResult" relationship="TO_MANY">
+      <point x="-3.6744855276538146E-4" y="82.00047519075436" />
+      <point x="364.715" y="166.606" />
+      <point x="465.0" y="166.606" />
+      <point x="465.0" y="136.5" />
+      <point x="-115.99968927521593" y="68.52181552072022" />
+    </edge>
+    <edge source="Phase" target="PhaseRunner" relationship="CREATE">
+      <point x="137.0" y="63.2695452558479" />
+      <point x="-137.0" y="15.000307330765793" />
+    </edge>
+    <edge source="PhaseRunner" target="RequestResult" relationship="TO_MANY">
+      <point x="-137.0000715796362" y="3.073307657928126E-4" />
+      <point x="465.0" y="369.376" />
+      <point x="465.0" y="136.5" />
+      <point x="-115.99968927521593" y="68.52181552072022" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.947242206235012" showDependencies="true" x="385.0" y="99.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
